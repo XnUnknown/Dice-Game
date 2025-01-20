@@ -1,0 +1,81 @@
+.headbox
+{
+    background:linear-gradient(45deg,rgb(133, 133, 133),rgb(205, 205, 205));
+    height: 80px;
+}
+h1{
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    text-shadow: 0 0 20px rgb(85, 188, 244);
+}
+head{
+    font-size: 10rem;
+}
+.gamearea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg,rgb(30, 28, 30),grey);
+    height: 710px;
+}
+#dice1{
+    background-color: brown;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius:30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    box-shadow: 10px 10px 2px black;
+}
+#dice2{
+    background-color: brown;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius:30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    box-shadow: 10px 10px 2px black;
+}
+.diceholder{
+    display: flex;
+    gap: 100px;
+}
+.dicenumber{
+    background-color: rgb(214, 244, 255);
+    border-radius:50%;
+    width: 30px;
+    height: 30px;
+}
+.vi{
+    visibility: hidden;
+}
+h3{
+    font-size: 2rem;
+    font-family: serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 10px 2px black;
+}
+button{
+    color: rgb(30, 30, 30);
+    font-weight: 700;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: yellow;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 10px 10px 2px black;
+}
+button:hover{
+    transform: scale(1.1);
+}
