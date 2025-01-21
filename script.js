@@ -1,6 +1,7 @@
 function dice1()
 {
-    var gen = Math.floor(Math.random()*7);
+    var gen = Math.floor(Math.random()*6);
+    gen++;
     var arr = document.querySelectorAll("#dice1 .dicenumber");
     for(var i=0;i<arr.length;i++)
     {
@@ -48,7 +49,8 @@ function dice1()
 }
 function dice2()
 {
-    var gen = Math.floor(Math.random()*7);
+    var gen = Math.floor(Math.random()*6);
+    gen++;
     var arr = document.querySelectorAll("#dice2 .dicenumber");
     for(var i=0;i<arr.length;i++)
     {
